@@ -1,0 +1,15 @@
+name: ligo
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10  # Use the exact Python version used in LIGO notebook
+  - numpy=1.21
+  - matplotlib=3.4
+  - scipy=1.7
+  - ipykernel=6
+  - decorator=5.0
+  - pip
+  - pip:
+    - some-pip-package==x.y  # if needed
