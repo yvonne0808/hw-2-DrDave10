@@ -6,11 +6,11 @@ channels:
 dependencies:
   - python=3.9  # Use the exact Python version used in LIGO notebook
   - numpy=2.0
-  - matplotlib=3.4
-  - scipy=1.7
-  - ipykernel=6
-  - decorator=5.0
+  - matplotlib=3.9
+  - scipy=1.13
+  - ipykernel=6.29
+  - decorator=5.1.1
   - pip
-  - h5py=3.6
+  - h5py=3.12
   - pip:
     - some-pip-package==x.y  # if needed
