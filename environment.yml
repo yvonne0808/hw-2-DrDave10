@@ -11,5 +11,6 @@ dependencies:
   - ipykernel=6
   - decorator=5.0
   - pip
+  - h5py=3.6
   - pip:
     - some-pip-package==x.y  # if needed
