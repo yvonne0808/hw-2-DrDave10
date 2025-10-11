@@ -4,7 +4,7 @@ channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python=3.10  # Use the exact Python version used in LIGO notebook
+  - python=3.9  # Use the exact Python version used in LIGO notebook
   - numpy=1.21
   - matplotlib=3.4
   - scipy=1.7
