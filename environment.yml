@@ -5,7 +5,7 @@ channels:
   - pytorch
 dependencies:
   - python=3.9  # Use the exact Python version used in LIGO notebook
-  - numpy=1.2
+  - numpy=2.0
   - matplotlib=3.4
   - scipy=1.7
   - ipykernel=6
